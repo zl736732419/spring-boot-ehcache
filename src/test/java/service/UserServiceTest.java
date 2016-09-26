@@ -21,8 +21,11 @@ public class UserServiceTest extends BaseServiceTest {
 
     @Test
     public void get() {
-        User user = userService.get(5L);
+        User user = userService.get(3L);
         System.out.println(user);
+        userService.clearCache();
+        System.out.println(userService.get(3L));
+        
     }
 
     @Test

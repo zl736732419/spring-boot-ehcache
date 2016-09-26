@@ -4,3 +4,4 @@
 /.classpath
 /.project
 /spring-boot-ehcache.iml
+/spring-boot-memcached.iml
